@@ -9,4 +9,3 @@ nome_total = nome + " " + sobrenome
 len(nome_total)
 nome_total.capitalize()
 
-
