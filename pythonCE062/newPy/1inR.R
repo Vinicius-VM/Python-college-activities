@@ -1,4 +1,4 @@
-#install.packages('reticulate')
+install.packages('reticulate')
 #reticulate::install_miniconda()
 
 #library(reticulate)
