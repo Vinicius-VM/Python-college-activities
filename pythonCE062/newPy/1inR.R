@@ -1,4 +1,4 @@
-install.packages('reticulate')
+#install.packages('reticulate')
 #reticulate::install_miniconda()
 
 #library(reticulate)
@@ -20,3 +20,5 @@ install.packages('reticulate')
 
 ##Achei util para os códigos acima:
 #https://rstudio.github.io/reticulate/articles/python_packages.html
+
+#reticulate::repl_python()
