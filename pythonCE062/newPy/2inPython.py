@@ -34,6 +34,7 @@ import math as mt
 #else: 
 #  print("O número é negativo")
 
+#PEsquisar biblioteca polars depois
 
 #idade = int(input("Digite a idade: "))
 #if idade < 12:
@@ -50,11 +51,15 @@ import math as mt
 #  print("Contador: ", contador)
 #  contador = contador + 1
 
-senha = "12345"
-leitura = ""
-while leitura != senha:
-  leitura = input("Digite a senha: ")
-  if leitura == senha:
-    print("Acesso liberado")
-  else:
-    print("Acesso negado, tente novamente!")
+#senha = "12345"
+#leitura = ""
+#while leitura != senha:
+#  leitura = input("Digite a senha: ")
+#  if leitura == senha:
+#    print("Acesso liberado")
+#  else:
+#    print("Acesso negado, tente novamente!")
+S = 0
+for i in range (1,10):
+  S = S + i
+  print(S)
